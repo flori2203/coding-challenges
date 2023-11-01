@@ -1,0 +1,78 @@
+{
+  "name": "parse-and-display-xml",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/parse-and-display-xml/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/parse-and-display-xml"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "parse-and-display-xml:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "parse-and-display-xml:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "parse-and-display-xml:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "preview": {
+      "executor": "@nx/vite:preview-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "parse-and-display-xml:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "parse-and-display-xml:build:development"
+        },
+        "production": {
+          "buildTarget": "parse-and-display-xml:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["coverage/apps/parse-and-display-xml"],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "../../coverage/apps/parse-and-display-xml"
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/parse-and-display-xml/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "parse-and-display-xml:build"
+      }
+    }
+  },
+  "tags": []
+}

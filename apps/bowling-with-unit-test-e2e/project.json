@@ -1,0 +1,33 @@
+{
+  "name": "bowling-with-unit-test-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/bowling-with-unit-test-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/bowling-with-unit-test-e2e/cypress.config.ts",
+        "devServerTarget": "bowling-with-unit-test:serve:development",
+        "testingType": "e2e"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "bowling-with-unit-test:serve:production"
+        },
+        "ci": {
+          "devServerTarget": "bowling-with-unit-test:serve-static"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/bowling-with-unit-test-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["bowling-with-unit-test"]
+}

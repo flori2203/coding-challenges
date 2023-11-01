@@ -3,10 +3,6 @@ import MazeContext from 'context/MazeContext';
 import recursiveAStar from 'features/pathfinding/recursiveAStar';
 import { MazeDetails } from 'context/MazeContext/MazeContext';
 
-function sleep(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 const useMaze = () => {
   const {
     maze: mazeWithRerender,
@@ -72,11 +68,9 @@ const useMaze = () => {
       mazeDetails,
       openSet,
       closedSet,
-      start,
       end,
       updateMaze,
-      updateMazeDetails,
-      () => sleep(0.0005)
+      updateMazeDetails
     );
   };
 
