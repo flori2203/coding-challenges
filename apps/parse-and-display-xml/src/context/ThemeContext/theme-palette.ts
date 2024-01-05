@@ -2,6 +2,11 @@ import { PaletteMode } from '@mui/material';
 
 const getLightPalette = (mode: string) => ({
   mode: mode as PaletteMode,
+  primary: {
+    main: "#00728E",
+    light: '#009FC0',
+    dark: '#00495D',
+  },
   background: {
     default: '#303030',
     paper: '#212121',

@@ -1,1 +1,1 @@
-export { default } from './Pathfinding';
+export { default } from './XmlDisplay';

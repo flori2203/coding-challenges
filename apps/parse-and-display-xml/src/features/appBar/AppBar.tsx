@@ -42,7 +42,7 @@ const AppBar = () => {
             color={'text.primary'}
             fontWeight="700"
           >
-            Coding-Challenge
+            Lesestein
           </Typography>
           <Typography
             variant="h5"
@@ -51,12 +51,12 @@ const AppBar = () => {
             fontWeight="500"
             ml={1}
           >
-            (Florian Rätsch)
+            (Florian / Dominik)
           </Typography>
         </Box>
 
         <Typography color={'text.disabled'} mr={2}>
-          Rekursive Pfadfindung
+          XML - Typescript - React
         </Typography>
       </Box>
     </MuiAppBar>

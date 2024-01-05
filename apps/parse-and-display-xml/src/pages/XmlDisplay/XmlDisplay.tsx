@@ -1,19 +1,14 @@
-import Maze from 'features/pathfinding/Maze/Maze';
-import { Box } from '@mui/material';
+import {Box, Button, Card, CardActions, Stack, CardContent, CardHeader, Grid, TextField} from '@mui/material';
+import CreateMember from "../../features/Xml/CreateMember";
+import MemberCards from "../../features/Xml/MemberCards";
 
-const Pathfinding = () => {
+const XmlDisplay = () => {
   return (
-    <Box
-      sx={{
-        width: '100%',
-        height: 'calc(100vh - 64px)',
-        display: 'flex',
-        flexDirection: 'column',
-      }}
-    >
-      <Maze />
-    </Box>
+    <Grid container>
+      <CreateMember />
+      <MemberCards />
+    </Grid>
   );
 };
 
-export default Pathfinding;
+export default XmlDisplay;
