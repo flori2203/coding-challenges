@@ -1,4 +1,4 @@
-{
+export const plantConfiguration = {
   "PlantCapabilities": {
     "Id": "plant-capabilities-1",
     "CanKnockOnMaterialShortage": false,

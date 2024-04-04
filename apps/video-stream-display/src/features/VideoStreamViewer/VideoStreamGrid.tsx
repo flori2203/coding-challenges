@@ -1,17 +1,13 @@
 import React, {useState} from "react";
 import {
-  Box,
-  Button, Card,
-  CardActions,
   CardContent,
-  CardHeader,
+  Card,
   Grid,
   MenuItem, Pagination,
   Select,
-  Stack,
-  TextField, Typography
+  Stack, Typography
 } from "@mui/material";
-import plantConfig from "./plantConfiguration.json";
+import {plantConfiguration as plantConfig} from "./plantConfiguration";
 import {CameraStream} from "./CameraStream";
 
 export const VideoStreamGrid = () => {

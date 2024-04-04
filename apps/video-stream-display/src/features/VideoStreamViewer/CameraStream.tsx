@@ -1,6 +1,6 @@
 import React from "react";
 import {Chip, Grid, Stack} from "@mui/material";
-import plantConfig from "./plantConfiguration.json";
+import {plantConfiguration as plantConfig} from "./plantConfiguration";
 
 interface CameraStreamProps {
   cameraStreamObject: {
