@@ -9,7 +9,7 @@ export function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter basename={"/cameras"}>
+      <BrowserRouter basename={"/cameras2"}>
         <ThemeContextProvider>
             <RouterConfig />
         </ThemeContextProvider>

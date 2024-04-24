@@ -37,136 +37,267 @@ export const plantConfiguration = {
   ],
   "Scales": [],
   "Cameras": [
-    {
-      "Id": "cam-1",
-      "Name": "7J05FB2PAGD14A8",
-      "StreamUrl": "http://192.168.80.103/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-2",
-      "Name": "7J05FB2PAGEEDAE",
-      "StreamUrl": "http://192.168.80.100/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-3",
-      "Name": "7J05FB2PAG959F6",
-      "StreamUrl": "http://192.168.80.125/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-4",
-      "Name": "7J05FB2PAG23F6D",
-      "StreamUrl": "http://192.168.80.123/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-5",
-      "Name": "7J05FB2PAG12DBB",
-      "StreamUrl": "http://192.168.80.127/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-6",
-      "Name": "unknown",
-      "StreamUrl": "http://192.168.80.104/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-7",
-      "Name": "7J0B284PAGA6295",
-      "StreamUrl": "http://192.168.80.121/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-8",
-      "Name": "7J05FB2PAG5EDB2",
-      "StreamUrl": "http://192.168.80.124/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-9",
-      "Name": "7J05FB2PAGB13B2",
-      "StreamUrl": "http://192.168.80.101/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-10",
-      "Name": "7J05FB2PAGC270F",
-      "StreamUrl": "http://192.168.80.102/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-11",
-      "Name": "7J0B284PAG0AB8D",
-      "StreamUrl": "http://192.168.80.122/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-12",
-      "Name": "7J05FB2PAG970D0",
-      "StreamUrl": "http://192.168.80.126/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-13",
-      "Name": "7J0B284PAG6819B",
-      "StreamUrl": "http://192.168.80.107/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-14",
-      "Name": "7J05FB2PAG1DEF4",
-      "StreamUrl": "http://192.168.80.111/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-15",
-      "Name": "7J05FB2PAG22A83",
-      "StreamUrl": "http://192.168.80.112/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-16",
-      "Name": "7J05FB2PAG4854A",
-      "StreamUrl": "http://192.168.80.115/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-17",
-      "Name": "unknown",
-      "StreamUrl": "http://192.168.80.118/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-18",
-      "Name": "7J05FB2PAG9A21B",
-      "StreamUrl": "http://192.168.80.113/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-19",
-      "Name": "7J0B284PAGCD94C",
-      "StreamUrl": "http://192.168.80.114/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-20",
-      "Name": "unknown",
-      "StreamUrl": "http://192.168.80.108/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-21",
-      "Name": "7J05FB2PAG4D57D",
-      "StreamUrl": "http://192.168.80.120/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-22",
-      "Name": "7J0B284PAG4D82F",
-      "StreamUrl": "http://192.168.80.119/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-23",
-      "Name": "unknown",
-      "StreamUrl": "http://192.168.80.106/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-24",
-      "Name": "7J0B284PAG5BFE4",
-      "StreamUrl": "http://192.168.80.105/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-25",
-      "Name": "7J0B284PAGE1FDF",
-      "StreamUrl": "http://192.168.80.117/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    },
-    {
-      "Id": "cam-26",
-      "Name": "7J0B284PAG10DDC",
-      "StreamUrl": "http://192.168.80.116/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
-    }
+      {
+        "Id": "cam-1",
+        "Name": "Test1",
+        "StreamUrl": "http://192.168.81.102:30091/cam-1/"
+      },
+      {
+        "Id": "cam-2",
+        "Name": "Test2",
+        "StreamUrl": "http://192.168.81.102:30091/cam-2/"
+      },
+      {
+        "Id": "cam-3",
+        "Name": "Test3",
+        "StreamUrl": "http://192.168.81.102:30091/cam-3/"
+      },
+      {
+        "Id": "cam-4",
+        "Name": "Test4",
+        "StreamUrl": "http://192.168.81.102:30091/cam-4/"
+      },
+      {
+        "Id": "cam-5",
+        "Name": "Test5",
+        "StreamUrl": "http://192.168.81.102:30091/cam-5/"
+      },
+      {
+        "Id": "cam-6",
+        "Name": "Test6",
+        "StreamUrl": "http://192.168.81.102:30091/cam-6/"
+      },
+      {
+        "Id": "cam-7",
+        "Name": "Test7",
+        "StreamUrl": "http://192.168.81.102:30091/cam-7/"
+      },
+      {
+        "Id": "cam-8",
+        "Name": "Test8",
+        "StreamUrl": "http://192.168.81.102:30091/cam-8/"
+      },
+      {
+        "Id": "cam-9",
+        "Name": "Test9",
+        "StreamUrl": "http://192.168.81.102:30091/cam-9/"
+      },
+      {
+        "Id": "cam-10",
+        "Name": "Test10",
+        "StreamUrl": "http://192.168.81.102:30091/cam-10/"
+      },
+      {
+        "Id": "cam-11",
+        "Name": "Test11",
+        "StreamUrl": "http://192.168.81.102:30091/cam-11/"
+      },
+      {
+        "Id": "cam-12",
+        "Name": "Test12",
+        "StreamUrl": "http://192.168.81.102:30091/cam-12/"
+      },
+      {
+        "Id": "cam-13",
+        "Name": "Test13",
+        "StreamUrl": "http://192.168.81.102:30091/cam-13/"
+      },
+      {
+        "Id": "cam-14",
+        "Name": "Test14",
+        "StreamUrl": "http://192.168.81.102:30091/cam-14/"
+      },
+      {
+        "Id": "cam-15",
+        "Name": "Test15",
+        "StreamUrl": "http://192.168.81.102:30091/cam-15/"
+      },
+      {
+        "Id": "cam-16",
+        "Name": "Test16",
+        "StreamUrl": "http://192.168.81.102:30091/cam-16/"
+      },
+      {
+        "Id": "cam-17",
+        "Name": "Test17",
+        "StreamUrl": "http://192.168.81.102:30091/cam-17/"
+      },
+      {
+        "Id": "cam-18",
+        "Name": "Test18",
+        "StreamUrl": "http://192.168.81.102:30091/cam-18/"
+      },
+      {
+        "Id": "cam-19",
+        "Name": "Test19",
+        "StreamUrl": "http://192.168.81.102:30091/cam-19/"
+      },
+      {
+        "Id": "cam-20",
+        "Name": "Test20",
+        "StreamUrl": "http://192.168.81.102:30091/cam-20/"
+      },
+      {
+        "Id": "cam-21",
+        "Name": "Test21",
+        "StreamUrl": "http://192.168.81.102:30091/cam-21/"
+      },
+      {
+        "Id": "cam-22",
+        "Name": "Test22",
+        "StreamUrl": "http://192.168.81.102:30091/cam-22/"
+      },
+      {
+        "Id": "cam-23",
+        "Name": "Test23",
+        "StreamUrl": "http://192.168.81.102:30091/cam-23/"
+      },
+      {
+        "Id": "cam-24",
+        "Name": "Test24",
+        "StreamUrl": "http://192.168.81.102:30091/cam-24/"
+      },
+      {
+        "Id": "cam-25",
+        "Name": "Test25",
+        "StreamUrl": "http://192.168.81.102:30091/cam-25/"
+      },
+      {
+        "Id": "cam-26",
+        "Name": "Test26",
+        "StreamUrl": "http://192.168.81.102:30091/cam-26/"
+      }
+
+    // {
+    //   "Id": "cam-1",
+    //   "Name": "7J05FB2PAGD14A8",
+    //   "StreamUrl": "http://192.168.80.103/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-2",
+    //   "Name": "7J05FB2PAGEEDAE",
+    //   "StreamUrl": "http://192.168.80.100/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-3",
+    //   "Name": "7J05FB2PAG959F6",
+    //   "StreamUrl": "http://192.168.80.125/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-4",
+    //   "Name": "7J05FB2PAG23F6D",
+    //   "StreamUrl": "http://192.168.80.123/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-5",
+    //   "Name": "7J05FB2PAG12DBB",
+    //   "StreamUrl": "http://192.168.80.127/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-6",
+    //   "Name": "unknown",
+    //   "StreamUrl": "http://192.168.80.104/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-7",
+    //   "Name": "7J0B284PAGA6295",
+    //   "StreamUrl": "http://192.168.80.121/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-8",
+    //   "Name": "7J05FB2PAG5EDB2",
+    //   "StreamUrl": "http://192.168.80.124/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-9",
+    //   "Name": "7J05FB2PAGB13B2",
+    //   "StreamUrl": "http://192.168.80.101/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-10",
+    //   "Name": "7J05FB2PAGC270F",
+    //   "StreamUrl": "http://192.168.80.102/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-11",
+    //   "Name": "7J0B284PAG0AB8D",
+    //   "StreamUrl": "http://192.168.80.122/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-12",
+    //   "Name": "7J05FB2PAG970D0",
+    //   "StreamUrl": "http://192.168.80.126/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-13",
+    //   "Name": "7J0B284PAG6819B",
+    //   "StreamUrl": "http://192.168.80.107/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-14",
+    //   "Name": "7J05FB2PAG1DEF4",
+    //   "StreamUrl": "http://192.168.80.111/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-15",
+    //   "Name": "7J05FB2PAG22A83",
+    //   "StreamUrl": "http://192.168.80.112/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-16",
+    //   "Name": "7J05FB2PAG4854A",
+    //   "StreamUrl": "http://192.168.80.115/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-17",
+    //   "Name": "unknown",
+    //   "StreamUrl": "http://192.168.80.118/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-18",
+    //   "Name": "7J05FB2PAG9A21B",
+    //   "StreamUrl": "http://192.168.80.113/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-19",
+    //   "Name": "7J0B284PAGCD94C",
+    //   "StreamUrl": "http://192.168.80.114/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-20",
+    //   "Name": "unknown",
+    //   "StreamUrl": "http://192.168.80.108/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-21",
+    //   "Name": "7J05FB2PAG4D57D",
+    //   "StreamUrl": "http://192.168.80.120/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-22",
+    //   "Name": "7J0B284PAG4D82F",
+    //   "StreamUrl": "http://192.168.80.119/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-23",
+    //   "Name": "unknown",
+    //   "StreamUrl": "http://192.168.80.106/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-24",
+    //   "Name": "7J0B284PAG5BFE4",
+    //   "StreamUrl": "http://192.168.80.105/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-25",
+    //   "Name": "7J0B284PAGE1FDF",
+    //   "StreamUrl": "http://192.168.80.117/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // },
+    // {
+    //   "Id": "cam-26",
+    //   "Name": "7J0B284PAG10DDC",
+    //   "StreamUrl": "http://192.168.80.116/cgi-bin/mjpg/video.cgi?channel=0&subtype=1&user=admin&password=uwanuk-J97"
+    // }
   ],
   "LoadingPoints": [
     {
