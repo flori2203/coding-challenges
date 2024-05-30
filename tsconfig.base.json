@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@pong-game/*": ["apps/pong-game/src/*"],
+      "@pong-game/*": ["apps/pong-game/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

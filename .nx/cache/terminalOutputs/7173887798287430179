@@ -1,0 +1,98 @@
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/8e3c18fd-b73a-425b-acbc-d3f19edc6c2f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8e3c18fd-b73a-425b-acbc-d3f19edc6c2f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/235d5bf9-504a-47f9-90d3-6a9bbea12a68[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/235d5bf9-504a-47f9-90d3-6a9bbea12a68[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 0, waiting for changes to restart...[22m
+
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/9f14ad27-9e03-4aa9-8d51-db4d11fee183[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9f14ad27-9e03-4aa9-8d51-db4d11fee183[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 0, waiting for changes to restart...[22m
+
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/86047d0e-aa53-4a96-923f-f9441b3530f4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/86047d0e-aa53-4a96-923f-f9441b3530f4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mC:\Users\FRaetsch\sources\coding-challenges\node_modules\ws\lib\websocket-server.js:86[39m[22m
+[1m[31m      throw new TypeError([39m[22m
+[1m[31m            ^[39m[22m
+[1m[31m[39m[22m
+[1m[31mTypeError: One and only one of the "port", "server", or "noServer" options must be specified[39m[22m
+[1m[31m    at new WebSocketServer (C:\Users\FRaetsch\sources\coding-challenges\node_modules\ws\lib\websocket-server.js:86:13)[39m[22m
+[1m[31m    at Object.<anonymous> (C:\Users\FRaetsch\sources\coding-challenges\apps\pong-game-backend\src\main.ts:9:13)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m[22m
+[1m[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)[39m[22m
+[1m[31m    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)[39m[22m
+[1m[31m    at Function.Module._load (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@nx\js\src\executors\node\node-with-require-overrides.js:18:31)[39m[22m
+[1m[31m    at Module.require (node:internal/modules/cjs/loader:1235:19)[39m[22m
+[1m[31m    at require (node:internal/modules/helpers:176:18)[39m[22m
+[1m[31m    at Object.<anonymous> (C:\Users\FRaetsch\sources\coding-challenges\tmp\pong-game-backend\main-with-require-overrides.js:55:1)[39m[22m
+[1m[31m[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/d5f18342-d5b1-4af8-b7f0-e42a391ec437[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d5f18342-d5b1-4af8-b7f0-e42a391ec437[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/94784cde-a77e-4220-b409-e6de8997a711[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/94784cde-a77e-4220-b409-e6de8997a711[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/c74136b9-2ee4-4c6c-a648-bb3b17665086[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c74136b9-2ee4-4c6c-a648-bb3b17665086[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/686747e6-327d-43c7-b8a3-6bdea3b81e0a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/686747e6-327d-43c7-b8a3-6bdea3b81e0a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/668c808a-b503-4a75-b9c5-5ce776e9817b[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/668c808a-b503-4a75-b9c5-5ce776e9817b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/fa9c8217-b199-4859-acd1-5b5121fb0e00[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fa9c8217-b199-4859-acd1-5b5121fb0e00[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/f159f8ef-8944-47ba-9491-264300538f8a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f159f8ef-8944-47ba-9491-264300538f8a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/b228f4e7-05e5-4133-8f6c-4bb6a3e4a408[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b228f4e7-05e5-4133-8f6c-4bb6a3e4a408[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/6a410828-3ce4-4734-a63c-2b0d932f11c4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6a410828-3ce4-4734-a63c-2b0d932f11c4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

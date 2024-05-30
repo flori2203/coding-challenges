@@ -1,0 +1,301 @@
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m10:40:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m
+
+
+
+
+
+
+
+[1;1H[0J[2m10:50:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m10:51:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m10:51:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x4)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m10:52:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x5)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m10:52:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x6)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m10:53:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x7)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m10:54:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x8)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m10:54:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x9)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m11:38:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x10)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m11:38:32[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x11)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m11:38:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x12)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m11:39:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x13)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m11:39:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x14)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m11:41:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x15)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m11:41:05[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\FRaetsch\sources\coding-challenges\apps\pong-game\src\pages\Pong\Pong.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (253:8)
+
+[0m [90m 251 |[31m     [33m>[31m
+ [90m 252 |[31m       {isLoggedIn [33m&&[31m [33m<[31m[33mbutton[31m onClick[33m=[31m{handleButtonClick}[33m>[31m[33mHallo[31m[33m<[31m[33m/[31m[33mbutton[31m[33m>[31m
+[31m[1m>[22m[31m[90m 253 |[31m         [33m<[31m[33mCanvas[31m shadows[33m>[31m
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 254 |[31m           [33m<[31m[33mPongScene[31m leftPaddleY[33m=[31m{leftPaddleY} rightPaddleY[33m=[31m{rightPaddleY}[33m/[31m[33m>[31m
+ [90m 255 |[31m         [33m<[31m[33m/[31m[33mCanvas[31m[33m>[31m}
+ [90m 256 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/FRaetsch/sources/coding-challenges/apps/pong-game/src/pages/Pong/Pong.tsx[39m:253:8
+[33m  251|      >
+  252|        {isLoggedIn && <button onClick={handleButtonClick}>Hallo</button>
+  253|          <Canvas shadows>
+     |          ^
+  254|            <PongScene leftPaddleY={leftPaddleY} rightPaddleY={rightPaddleY}/>
+  255|          </Canvas>}[39m
+      at constructor (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:351:19)
+      at TypeScriptParserMixin.raise (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:3233:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6759:18)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6766:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6776:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10568:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10551:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10529:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9430:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10383:61)
+      at TypeScriptParserMixin.parseExprOpBaseRightExpr (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10469:34)
+      at TypeScriptParserMixin.parseExprOpRightExpr (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10464:21)
+      at TypeScriptParserMixin.parseExprOp (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10431:27)
+      at TypeScriptParserMixin.parseExprOp (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:8973:18)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10392:17)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10365:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10326:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9379:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10280:23)
+      at C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10276:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:11918:12)
+      at TypeScriptParserMixin.parseExpression (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10276:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6649:31)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6728:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6766:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6776:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10568:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10551:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10529:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9430:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10383:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10388:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10365:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10326:21)
+      at C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9368:39
+      at TypeScriptParserMixin.tryParse (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:3564:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9368:18)
+      at C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10296:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:11918:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10296:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:11177:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10835:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6781:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10568:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10551:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10529:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9430:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10383:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10388:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10365:23)
+
+
+
+
+
+
+
+[1;1H[0J[2m11:41:05[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\FRaetsch\sources\coding-challenges\apps\pong-game\src\pages\Pong\Pong.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (253:8)
+
+[0m [90m 251 |[31m     [33m>[31m
+ [90m 252 |[31m       {isLoggedIn [33m&&[31m [33m<[31m[33mbutton[31m onClick[33m=[31m{handleButtonClick}[33m>[31m[33mHallo[31m[33m<[31m[33m/[31m[33mbutton[31m[33m>[31m
+[31m[1m>[22m[31m[90m 253 |[31m         [33m<[31m[33mCanvas[31m shadows[33m>[31m
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 254 |[31m           [33m<[31m[33mPongScene[31m leftPaddleY[33m=[31m{leftPaddleY} rightPaddleY[33m=[31m{rightPaddleY}[33m/[31m[33m>[31m
+ [90m 255 |[31m         [33m<[31m[33m/[31m[33mCanvas[31m[33m>[31m}
+ [90m 256 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/FRaetsch/sources/coding-challenges/apps/pong-game/src/pages/Pong/Pong.tsx[39m:253:8
+[33m  251|      >
+  252|        {isLoggedIn && <button onClick={handleButtonClick}>Hallo</button>
+  253|          <Canvas shadows>
+     |          ^
+  254|            <PongScene leftPaddleY={leftPaddleY} rightPaddleY={rightPaddleY}/>
+  255|          </Canvas>}[39m
+      at constructor (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:351:19)
+      at TypeScriptParserMixin.raise (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:3233:19)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6759:18)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6766:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6776:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10568:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10551:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10529:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9430:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10383:61)
+      at TypeScriptParserMixin.parseExprOpBaseRightExpr (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10469:34)
+      at TypeScriptParserMixin.parseExprOpRightExpr (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10464:21)
+      at TypeScriptParserMixin.parseExprOp (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10431:27)
+      at TypeScriptParserMixin.parseExprOp (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:8973:18)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10392:17)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10365:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10326:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9379:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10280:23)
+      at C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10276:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:11918:12)
+      at TypeScriptParserMixin.parseExpression (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10276:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6649:31)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6728:36)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6766:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6776:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10568:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10551:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10529:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9430:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10383:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10388:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10365:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10326:21)
+      at C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9368:39
+      at TypeScriptParserMixin.tryParse (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:3564:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9368:18)
+      at C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10296:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:11918:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10296:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:11177:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10835:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:6781:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10568:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10551:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10529:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:9430:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10383:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10388:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\FRaetsch\sources\coding-challenges\node_modules\@babel\parser\lib\index.js:10365:23) [33m(x2)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m11:41:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m
+
+
+
+
+
+
+
+[1;1H[0J[2m11:41:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m13:30:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+[1;1H[0J[2m13:30:29[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Pong/Pong.tsx[22m [33m(x4)[39m

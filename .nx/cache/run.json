@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run pong-game:dev",
+    "startTime": "2024-05-29T13:58:42.449Z",
+    "endTime": "2024-05-29T14:35:39.453Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "pong-game:dev:development",
+      "target": "dev",
+      "projectName": "pong-game",
+      "hash": "1760677955358682885",
+      "startTime": "2024-05-29T13:58:42.458Z",
+      "endTime": "2024-05-29T14:35:39.453Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

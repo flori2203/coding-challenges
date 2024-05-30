@@ -1,0 +1,1834 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.3.2",
+  "deps": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.3",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.16",
+    "@react-three/drei": "^9.77.0",
+    "@react-three/fiber": "^8.13.3",
+    "@react-three/rapier": "^1.1.1",
+    "@swc/helpers": "~0.5.2",
+    "@tanstack/react-query": "^4.29.14",
+    "@types/three": "^0.152.1",
+    "axios": "^1.6.4",
+    "express": "~4.18.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.13.0",
+    "storybook-addon-module-mock": "^1.0.13",
+    "three": "^0.153.0",
+    "tslib": "^2.3.0",
+    "ws": "^8.17.0",
+    "@emotion/babel-plugin": "11.10.6",
+    "@nx/cypress": "16.3.2",
+    "@nx/esbuild": "19.1.0",
+    "@nx/eslint-plugin": "16.3.2",
+    "@nx/jest": "19.1.0",
+    "@nx/js": "19.1.0",
+    "@nx/linter": "16.3.2",
+    "@nx/node": "^19.1.0",
+    "@nx/react": "16.3.2",
+    "@nx/storybook": "^16.6.0",
+    "@nx/vite": "16.3.2",
+    "@nx/web": "16.6.0",
+    "@nx/workspace": "16.3.2",
+    "@storybook/addon-essentials": "^7.1.0",
+    "@storybook/addon-interactions": "^7.2.0",
+    "@storybook/core-server": "^7.1.0",
+    "@storybook/jest": "~0.1.0",
+    "@storybook/react-vite": "^7.1.0",
+    "@storybook/test-runner": "^0.11.0",
+    "@storybook/testing-library": "~0.2.0",
+    "@swc-node/register": "~1.8.0",
+    "@swc/cli": "~0.1.62",
+    "@swc/core": "~1.3.85",
+    "@testing-library/react": "14.0.0",
+    "@types/express": "~4.17.13",
+    "@types/jest": "^29.4.0",
+    "@types/node": "~18.16.9",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@vitejs/plugin-react": "^3.0.0",
+    "@vitest/coverage-c8": "^0.31.0",
+    "@vitest/ui": "^0.31.0",
+    "cypress": "^12.11.0",
+    "esbuild": "^0.19.2",
+    "eslint": "~8.15.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-node": "^29.4.1",
+    "jsdom": "~20.0.3",
+    "nx": "16.3.2",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~4.9.5",
+    "vite": "^4.3.4",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-tsconfig-paths": "^4.0.2",
+    "vitest": "^0.31.0"
+  },
+  "pathMappings": {
+    "@pong-game/*": [
+      "apps/pong-game/src/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "projectFileMap": {
+    "bowling-with-unit-test": [
+      {
+        "file": "apps/bowling-with-unit-test/.eslintrc.json",
+        "hash": "14830867113928387670"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/.storybook/main.js",
+        "hash": "4499150342412091604"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/.storybook/preview.js",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/index.html",
+        "hash": "17818156746794847542"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/project.json",
+        "hash": "16716781208467767415"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/src/App.tsx",
+        "hash": "3765579257561504252"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/src/Bowling/Bowling.stories.tsx",
+        "hash": "8505385916546462597",
+        "deps": [
+          "npm:@storybook/react",
+          "npm:@storybook/testing-library",
+          "npm:@storybook/jest"
+        ]
+      },
+      {
+        "file": "apps/bowling-with-unit-test/src/Bowling/Bowling.tsx",
+        "hash": "1133902425004394488",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/bowling-with-unit-test/src/Bowling/BowlingCounter.ts",
+        "hash": "10081207126822037136"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/src/main.tsx",
+        "hash": "6459485373915486204",
+        "deps": [
+          "npm:react",
+          "npm:react-dom"
+        ]
+      },
+      {
+        "file": "apps/bowling-with-unit-test/tsconfig.app.json",
+        "hash": "12933236895978803798"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/tsconfig.json",
+        "hash": "70291196502489271"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/tsconfig.spec.json",
+        "hash": "17159627170952567990"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/tsconfig.storybook.json",
+        "hash": "2971558230537140863"
+      },
+      {
+        "file": "apps/bowling-with-unit-test/vite.config.ts",
+        "hash": "7325792849702147145",
+        "deps": [
+          "npm:vite",
+          "npm:@vitejs/plugin-react",
+          "npm:vite-tsconfig-paths"
+        ]
+      }
+    ],
+    "bowling-with-unit-test-e2e": [
+      {
+        "file": "apps/bowling-with-unit-test-e2e/.eslintrc.json",
+        "hash": "10799368048025705622"
+      },
+      {
+        "file": "apps/bowling-with-unit-test-e2e/cypress.config.ts",
+        "hash": "5888464509215434582",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/bowling-with-unit-test-e2e/project.json",
+        "hash": "6710243452650916323"
+      },
+      {
+        "file": "apps/bowling-with-unit-test-e2e/src/e2e/app.cy.ts",
+        "hash": "18176520167927139354"
+      },
+      {
+        "file": "apps/bowling-with-unit-test-e2e/src/fixtures/example.json",
+        "hash": "17341819486505642070"
+      },
+      {
+        "file": "apps/bowling-with-unit-test-e2e/src/support/app.po.ts",
+        "hash": "5364106453863571025"
+      },
+      {
+        "file": "apps/bowling-with-unit-test-e2e/src/support/commands.ts",
+        "hash": "11031723810997510506"
+      },
+      {
+        "file": "apps/bowling-with-unit-test-e2e/src/support/e2e.ts",
+        "hash": "15928825062325902088"
+      },
+      {
+        "file": "apps/bowling-with-unit-test-e2e/tsconfig.json",
+        "hash": "6711070650399197251"
+      }
+    ],
+    "minesweeper": [
+      {
+        "file": "apps/minesweeper/.eslintrc.json",
+        "hash": "14830867113928387670"
+      },
+      {
+        "file": "apps/minesweeper/index.html",
+        "hash": "12066494063622562294"
+      },
+      {
+        "file": "apps/minesweeper/project.json",
+        "hash": "12690415704220759669"
+      },
+      {
+        "file": "apps/minesweeper/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/minesweeper/src/app.tsx",
+        "hash": "3950513152085051736",
+        "deps": [
+          "npm:react",
+          "npm:context/ThemeContext",
+          "npm:features/router/RouterConfig",
+          "npm:react-router-dom",
+          "npm:@tanstack/react-query"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/assets/materialSymbols/back.svg",
+        "hash": "6015524657365055405"
+      },
+      {
+        "file": "apps/minesweeper/src/assets/materialSymbols/close.svg",
+        "hash": "9232473675427716761"
+      },
+      {
+        "file": "apps/minesweeper/src/assets/materialSymbols/gridView.svg",
+        "hash": "9418354020064691536"
+      },
+      {
+        "file": "apps/minesweeper/src/assets/materialSymbols/settings.svg",
+        "hash": "17390081654166786709"
+      },
+      {
+        "file": "apps/minesweeper/src/assets/materialSymbols/telephone.svg",
+        "hash": "139603796363425218"
+      },
+      {
+        "file": "apps/minesweeper/src/assets/materialSymbols/translate.svg",
+        "hash": "8861001481662183937"
+      },
+      {
+        "file": "apps/minesweeper/src/assets/materialSymbols/videocam.svg",
+        "hash": "12351009773031251635"
+      },
+      {
+        "file": "apps/minesweeper/src/assets/schulzLogos/Logo_SCHULZ.svg",
+        "hash": "16117230504321900506"
+      },
+      {
+        "file": "apps/minesweeper/src/assets/schulzLogos/schulzLogoBlack.svg",
+        "hash": "3296828930508548560"
+      },
+      {
+        "file": "apps/minesweeper/src/components/LanguageSelector/index.tsx",
+        "hash": "16499115735223650368"
+      },
+      {
+        "file": "apps/minesweeper/src/components/LanguageSelector/LanguageSelectField/index.tsx",
+        "hash": "14476581500859943573"
+      },
+      {
+        "file": "apps/minesweeper/src/components/LanguageSelector/LanguageSelectField/LanguageSelectField.tsx",
+        "hash": "18027208434858458916",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react-i18next",
+          "npm:react",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/materialSymbols/translate.svg"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/components/LanguageSelector/LanguageSelector.tsx",
+        "hash": "8784684891499065705",
+        "deps": [
+          "npm:react",
+          "npm:react-i18next",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/components/UI/LoadingSpinner/index.tsx",
+        "hash": "8510704326850206742"
+      },
+      {
+        "file": "apps/minesweeper/src/components/UI/LoadingSpinner/LoadingSpinner.tsx",
+        "hash": "17898767624727662915",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/components/UI/Page/index.tsx",
+        "hash": "1843130290203283800"
+      },
+      {
+        "file": "apps/minesweeper/src/components/UI/Page/Page.tsx",
+        "hash": "16150559238373122181",
+        "deps": [
+          "npm:react",
+          "npm:@mui/system",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/components/UI/StyledIcon/index.tsx",
+        "hash": "16084557547657475843"
+      },
+      {
+        "file": "apps/minesweeper/src/components/UI/StyledIcon/StyledIcon.tsx",
+        "hash": "900708737275184281",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/context/ThemeContext/index.tsx",
+        "hash": "5223632696207275502"
+      },
+      {
+        "file": "apps/minesweeper/src/context/ThemeContext/theme-palette.ts",
+        "hash": "6154338888918099306",
+        "deps": [
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/context/ThemeContext/ThemeContext.tsx",
+        "hash": "1484274618416672659",
+        "deps": [
+          "npm:@mui/material",
+          "npm:context/ThemeContext/theme-palette",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/features/appBar/AppBar.tsx",
+        "hash": "16804174996112461004",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/schulzLogos/Logo_SCHULZ.svg"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/features/appBar/AppBarNavButton/AppBarNavButton.tsx",
+        "hash": "17732440706492972254",
+        "deps": [
+          "npm:@mui/material",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/materialSymbols/gridView.svg",
+          "npm:assets/materialSymbols/close.svg",
+          "npm:assets/materialSymbols/back.svg",
+          "npm:react",
+          "npm:react-router-dom",
+          "npm:react-i18next"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/features/appBar/AppBarNavButton/index.tsx",
+        "hash": "5452944012300234789"
+      },
+      {
+        "file": "apps/minesweeper/src/features/appBar/index.tsx",
+        "hash": "3370520706685188326"
+      },
+      {
+        "file": "apps/minesweeper/src/features/minesweeper/Minesweeper.tsx",
+        "hash": "5879570553588711203",
+        "deps": [
+          "npm:react",
+          "npm:@react-three/fiber",
+          "npm:three",
+          "npm:@react-three/drei"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/features/router/index.tsx",
+        "hash": "8294643873714387817"
+      },
+      {
+        "file": "apps/minesweeper/src/features/router/RouterConfig.tsx",
+        "hash": "15108326462360416612",
+        "deps": [
+          "npm:react",
+          "npm:react-router-dom",
+          "npm:layouts",
+          "npm:pages/Minesweeper"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/layouts/index.tsx",
+        "hash": "10130446966653343947"
+      },
+      {
+        "file": "apps/minesweeper/src/layouts/Layout.tsx",
+        "hash": "16010242413639661291",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:features/appBar"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/layouts/Main/index.tsx",
+        "hash": "13342127902260133307"
+      },
+      {
+        "file": "apps/minesweeper/src/layouts/Main/Main.tsx",
+        "hash": "2142144641928241968",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:react-router-dom"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/main.tsx",
+        "hash": "4573879561554554199",
+        "deps": [
+          "npm:react",
+          "npm:react-dom"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/src/pages/Minesweeper/index.tsx",
+        "hash": "1145741567250094464"
+      },
+      {
+        "file": "apps/minesweeper/src/pages/Minesweeper/Minesweeper.tsx",
+        "hash": "1600790469891502303",
+        "deps": [
+          "npm:features/minesweeper/Minesweeper",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/minesweeper/tsconfig.app.json",
+        "hash": "3122682610598348251"
+      },
+      {
+        "file": "apps/minesweeper/tsconfig.json",
+        "hash": "13364953032839076921"
+      },
+      {
+        "file": "apps/minesweeper/tsconfig.spec.json",
+        "hash": "17159627170952567990"
+      },
+      {
+        "file": "apps/minesweeper/vite.config.ts",
+        "hash": "4196354654336992767",
+        "deps": [
+          "npm:vite",
+          "npm:@vitejs/plugin-react",
+          "npm:vite-tsconfig-paths"
+        ]
+      }
+    ],
+    "minesweeper-e2e": [
+      {
+        "file": "apps/minesweeper-e2e/.eslintrc.json",
+        "hash": "10799368048025705622"
+      },
+      {
+        "file": "apps/minesweeper-e2e/cypress.config.ts",
+        "hash": "5888464509215434582",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/minesweeper-e2e/project.json",
+        "hash": "9238419885890155298"
+      },
+      {
+        "file": "apps/minesweeper-e2e/src/e2e/app.cy.ts",
+        "hash": "3249557952928960115"
+      },
+      {
+        "file": "apps/minesweeper-e2e/src/fixtures/example.json",
+        "hash": "17341819486505642070"
+      },
+      {
+        "file": "apps/minesweeper-e2e/src/support/app.po.ts",
+        "hash": "5364106453863571025"
+      },
+      {
+        "file": "apps/minesweeper-e2e/src/support/commands.ts",
+        "hash": "11031723810997510506"
+      },
+      {
+        "file": "apps/minesweeper-e2e/src/support/e2e.ts",
+        "hash": "15928825062325902088"
+      },
+      {
+        "file": "apps/minesweeper-e2e/tsconfig.json",
+        "hash": "6711070650399197251"
+      }
+    ],
+    "parse-and-display-xml": [
+      {
+        "file": "apps/parse-and-display-xml/.eslintrc.json",
+        "hash": "14830867113928387670"
+      },
+      {
+        "file": "apps/parse-and-display-xml/index.html",
+        "hash": "10345527025500183567"
+      },
+      {
+        "file": "apps/parse-and-display-xml/project.json",
+        "hash": "13919838480849736562"
+      },
+      {
+        "file": "apps/parse-and-display-xml/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/app.tsx",
+        "hash": "5015921812997705183",
+        "deps": [
+          "npm:react",
+          "npm:context/ThemeContext",
+          "npm:features/router/RouterConfig",
+          "npm:react-router-dom",
+          "npm:@tanstack/react-query"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/assets/materialSymbols/back.svg",
+        "hash": "6015524657365055405"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/assets/materialSymbols/close.svg",
+        "hash": "9232473675427716761"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/assets/materialSymbols/gridView.svg",
+        "hash": "9418354020064691536"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/assets/materialSymbols/settings.svg",
+        "hash": "17390081654166786709"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/assets/materialSymbols/telephone.svg",
+        "hash": "139603796363425218"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/assets/materialSymbols/translate.svg",
+        "hash": "8861001481662183937"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/assets/materialSymbols/videocam.svg",
+        "hash": "12351009773031251635"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/assets/schulzLogos/Logo_SCHULZ.svg",
+        "hash": "16117230504321900506"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/assets/schulzLogos/schulzLogoBlack.svg",
+        "hash": "3296828930508548560"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/LanguageSelector/index.tsx",
+        "hash": "16499115735223650368"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/LanguageSelector/LanguageSelectField/index.tsx",
+        "hash": "14476581500859943573"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/LanguageSelector/LanguageSelectField/LanguageSelectField.tsx",
+        "hash": "18027208434858458916",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react-i18next",
+          "npm:react",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/materialSymbols/translate.svg"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/LanguageSelector/LanguageSelector.tsx",
+        "hash": "8784684891499065705",
+        "deps": [
+          "npm:react",
+          "npm:react-i18next",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/UI/LoadingSpinner/index.tsx",
+        "hash": "8510704326850206742"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/UI/LoadingSpinner/LoadingSpinner.tsx",
+        "hash": "17898767624727662915",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/UI/Page/index.tsx",
+        "hash": "1843130290203283800"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/UI/Page/Page.tsx",
+        "hash": "16150559238373122181",
+        "deps": [
+          "npm:react",
+          "npm:@mui/system",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/UI/StyledIcon/index.tsx",
+        "hash": "16084557547657475843"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/components/UI/StyledIcon/StyledIcon.tsx",
+        "hash": "900708737275184281",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/context/ThemeContext/index.tsx",
+        "hash": "5223632696207275502"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/context/ThemeContext/theme-palette.ts",
+        "hash": "6976013319454537451",
+        "deps": [
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/context/ThemeContext/ThemeContext.tsx",
+        "hash": "1484274618416672659",
+        "deps": [
+          "npm:@mui/material",
+          "npm:context/ThemeContext/theme-palette",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/appBar/AppBar.tsx",
+        "hash": "13960135352492836350",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/schulzLogos/Logo_SCHULZ.svg"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/appBar/AppBarNavButton/AppBarNavButton.tsx",
+        "hash": "17732440706492972254",
+        "deps": [
+          "npm:@mui/material",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/materialSymbols/gridView.svg",
+          "npm:assets/materialSymbols/close.svg",
+          "npm:assets/materialSymbols/back.svg",
+          "npm:react",
+          "npm:react-router-dom",
+          "npm:react-i18next"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/appBar/AppBarNavButton/index.tsx",
+        "hash": "5452944012300234789"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/appBar/index.tsx",
+        "hash": "3370520706685188326"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/router/index.tsx",
+        "hash": "8294643873714387817"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/router/RouterConfig.tsx",
+        "hash": "7947212918466524765",
+        "deps": [
+          "npm:react",
+          "npm:react-router-dom",
+          "npm:layouts",
+          "npm:pages/XmlDisplay"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/Xml/CreateMember/CreateMember.tsx",
+        "hash": "6476297031980729975",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:@tanstack/react-query",
+          "npm:axios"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/Xml/CreateMember/index.tsx",
+        "hash": "2207200148336122349"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/Xml/MemberCards/index.tsx",
+        "hash": "4568801803334490012"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/features/Xml/MemberCards/MemberCards.tsx",
+        "hash": "2014715083095428844",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:@tanstack/react-query",
+          "npm:axios",
+          "npm:@mui/icons-material"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/layouts/index.tsx",
+        "hash": "10130446966653343947"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/layouts/Layout.tsx",
+        "hash": "16010242413639661291",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:features/appBar"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/layouts/Main/index.tsx",
+        "hash": "13342127902260133307"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/layouts/Main/Main.tsx",
+        "hash": "2142144641928241968",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:react-router-dom"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/main.tsx",
+        "hash": "4573879561554554199",
+        "deps": [
+          "npm:react",
+          "npm:react-dom"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/pages/XmlDisplay/index.tsx",
+        "hash": "1750276066044176217"
+      },
+      {
+        "file": "apps/parse-and-display-xml/src/pages/XmlDisplay/XmlDisplay.tsx",
+        "hash": "5633219059464056567",
+        "deps": [
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml/tsconfig.app.json",
+        "hash": "3122682610598348251"
+      },
+      {
+        "file": "apps/parse-and-display-xml/tsconfig.json",
+        "hash": "13364953032839076921"
+      },
+      {
+        "file": "apps/parse-and-display-xml/tsconfig.spec.json",
+        "hash": "17159627170952567990"
+      },
+      {
+        "file": "apps/parse-and-display-xml/vite.config.ts",
+        "hash": "4567138261481191564",
+        "deps": [
+          "npm:vite",
+          "npm:@vitejs/plugin-react",
+          "npm:vite-tsconfig-paths"
+        ]
+      }
+    ],
+    "parse-and-display-xml-e2e": [
+      {
+        "file": "apps/parse-and-display-xml-e2e/.eslintrc.json",
+        "hash": "10799368048025705622"
+      },
+      {
+        "file": "apps/parse-and-display-xml-e2e/cypress.config.ts",
+        "hash": "5888464509215434582",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/parse-and-display-xml-e2e/project.json",
+        "hash": "10740839699886219633"
+      },
+      {
+        "file": "apps/parse-and-display-xml-e2e/src/e2e/app.cy.ts",
+        "hash": "3342317023812887776"
+      },
+      {
+        "file": "apps/parse-and-display-xml-e2e/src/fixtures/example.json",
+        "hash": "17341819486505642070"
+      },
+      {
+        "file": "apps/parse-and-display-xml-e2e/src/support/app.po.ts",
+        "hash": "5364106453863571025"
+      },
+      {
+        "file": "apps/parse-and-display-xml-e2e/src/support/commands.ts",
+        "hash": "11031723810997510506"
+      },
+      {
+        "file": "apps/parse-and-display-xml-e2e/src/support/e2e.ts",
+        "hash": "15928825062325902088"
+      },
+      {
+        "file": "apps/parse-and-display-xml-e2e/tsconfig.json",
+        "hash": "6711070650399197251"
+      }
+    ],
+    "pong-game": [
+      {
+        "file": "apps/pong-game/.eslintrc.json",
+        "hash": "14830867113928387670"
+      },
+      {
+        "file": "apps/pong-game/Dockerfile",
+        "hash": "17482983276549749866"
+      },
+      {
+        "file": "apps/pong-game/index.html",
+        "hash": "10923681853929888082"
+      },
+      {
+        "file": "apps/pong-game/nginx.conf",
+        "hash": "10721363189790195938"
+      },
+      {
+        "file": "apps/pong-game/project.json",
+        "hash": "15364040816534719456"
+      },
+      {
+        "file": "apps/pong-game/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/pong-game/src/app.tsx",
+        "hash": "14367978751881109759",
+        "deps": [
+          "npm:react",
+          "npm:react-router-dom",
+          "npm:@tanstack/react-query"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/assets/schulzLogos/Logo_SCHULZ.svg",
+        "hash": "16117230504321900506"
+      },
+      {
+        "file": "apps/pong-game/src/assets/schulzLogos/schulzLogoBlack.svg",
+        "hash": "3296828930508548560"
+      },
+      {
+        "file": "apps/pong-game/src/components/UI/LoadingSpinner/index.tsx",
+        "hash": "8510704326850206742"
+      },
+      {
+        "file": "apps/pong-game/src/components/UI/LoadingSpinner/LoadingSpinner.tsx",
+        "hash": "17898767624727662915",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/components/UI/Page/index.tsx",
+        "hash": "1843130290203283800"
+      },
+      {
+        "file": "apps/pong-game/src/components/UI/Page/Page.tsx",
+        "hash": "16150559238373122181",
+        "deps": [
+          "npm:react",
+          "npm:@mui/system",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/components/UI/StyledIcon/index.tsx",
+        "hash": "16084557547657475843"
+      },
+      {
+        "file": "apps/pong-game/src/components/UI/StyledIcon/StyledIcon.tsx",
+        "hash": "900708737275184281",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/context/ThemeContext/index.tsx",
+        "hash": "5223632696207275502"
+      },
+      {
+        "file": "apps/pong-game/src/context/ThemeContext/theme-palette.ts",
+        "hash": "6976013319454537451",
+        "deps": [
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/context/ThemeContext/ThemeContext.tsx",
+        "hash": "17557027816413064963",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/features/appBar/AppBar.tsx",
+        "hash": "5376706655026147329",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:apps/pong-game/src/assets/schulzLogos/Logo_SCHULZ.svg"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/features/appBar/AppBarNavButton/AppBarNavButton.tsx",
+        "hash": "12589842521822203722",
+        "deps": [
+          "npm:@mui/material",
+          "npm:apps/pong-game/src/assets/materialSymbols/gridView.svg",
+          "npm:apps/pong-game/src/assets/materialSymbols/close.svg",
+          "npm:apps/pong-game/src/assets/materialSymbols/back.svg",
+          "npm:react",
+          "npm:react-router-dom"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/features/appBar/AppBarNavButton/index.tsx",
+        "hash": "5452944012300234789"
+      },
+      {
+        "file": "apps/pong-game/src/features/appBar/index.tsx",
+        "hash": "3370520706685188326"
+      },
+      {
+        "file": "apps/pong-game/src/features/router/index.tsx",
+        "hash": "8294643873714387817"
+      },
+      {
+        "file": "apps/pong-game/src/features/router/RouterConfig.tsx",
+        "hash": "9650054572965879053",
+        "deps": [
+          "npm:react",
+          "npm:react-router-dom"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/layouts/index.tsx",
+        "hash": "10130446966653343947"
+      },
+      {
+        "file": "apps/pong-game/src/layouts/Layout.tsx",
+        "hash": "12327793442045173117",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/layouts/Main/index.tsx",
+        "hash": "13342127902260133307"
+      },
+      {
+        "file": "apps/pong-game/src/layouts/Main/Main.tsx",
+        "hash": "2142144641928241968",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:react-router-dom"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/main.tsx",
+        "hash": "4573879561554554199",
+        "deps": [
+          "npm:react",
+          "npm:react-dom"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/pages/Pong/index.tsx",
+        "hash": "1094048408861547658"
+      },
+      {
+        "file": "apps/pong-game/src/pages/Pong/Pong.tsx",
+        "hash": "4204391330594050811",
+        "deps": [
+          "npm:react",
+          "npm:@react-three/fiber",
+          "npm:three",
+          "npm:@mui/material",
+          "npm:@react-three/rapier",
+          "npm:apps/pong-game/src/assets/schulzLogos/Logo_SCHULZ.svg"
+        ]
+      },
+      {
+        "file": "apps/pong-game/tsconfig.app.json",
+        "hash": "4318898797448751337"
+      },
+      {
+        "file": "apps/pong-game/tsconfig.json",
+        "hash": "11166545116916107487"
+      },
+      {
+        "file": "apps/pong-game/tsconfig.spec.json",
+        "hash": "9804569007269858649"
+      },
+      {
+        "file": "apps/pong-game/vite.config.ts",
+        "hash": "1804819469201731179",
+        "deps": [
+          "npm:vite",
+          "npm:@vitejs/plugin-react",
+          "npm:vite-tsconfig-paths"
+        ]
+      }
+    ],
+    "pong-game-backend": [
+      {
+        "file": "apps/pong-game-backend/.eslintrc.json",
+        "hash": "13800677001662881425"
+      },
+      {
+        "file": "apps/pong-game-backend/jest.config.ts",
+        "hash": "9433330078776490315"
+      },
+      {
+        "file": "apps/pong-game-backend/project.json",
+        "hash": "4592662554808701361"
+      },
+      {
+        "file": "apps/pong-game-backend/src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/pong-game-backend/src/main.ts",
+        "hash": "55814974196941448",
+        "deps": [
+          "npm:http",
+          "npm:express",
+          "npm:ws"
+        ]
+      },
+      {
+        "file": "apps/pong-game-backend/src/types.ts",
+        "hash": "3801241595630847672"
+      },
+      {
+        "file": "apps/pong-game-backend/tsconfig.app.json",
+        "hash": "1558509971940032459"
+      },
+      {
+        "file": "apps/pong-game-backend/tsconfig.json",
+        "hash": "3490524966360018312"
+      },
+      {
+        "file": "apps/pong-game-backend/tsconfig.spec.json",
+        "hash": "11550347367511341917"
+      }
+    ],
+    "pong-game-e2e": [
+      {
+        "file": "apps/pong-game-e2e/.eslintrc.json",
+        "hash": "14060216369337943343"
+      },
+      {
+        "file": "apps/pong-game-e2e/cypress.config.ts",
+        "hash": "3631011454240625899",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/pong-game-e2e/project.json",
+        "hash": "8447586734816092844"
+      },
+      {
+        "file": "apps/pong-game-e2e/src/e2e/app.cy.ts",
+        "hash": "12411239124533466404"
+      },
+      {
+        "file": "apps/pong-game-e2e/src/fixtures/example.json",
+        "hash": "11614668686582597233"
+      },
+      {
+        "file": "apps/pong-game-e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "apps/pong-game-e2e/src/support/commands.ts",
+        "hash": "7314691991044890572"
+      },
+      {
+        "file": "apps/pong-game-e2e/src/support/e2e.ts",
+        "hash": "3666078656922506009"
+      },
+      {
+        "file": "apps/pong-game-e2e/tsconfig.json",
+        "hash": "1788248097864730386"
+      }
+    ],
+    "recursive-pathfinding": [
+      {
+        "file": "apps/recursive-pathfinding/.eslintrc.json",
+        "hash": "17701047452422924237"
+      },
+      {
+        "file": "apps/recursive-pathfinding/index.html",
+        "hash": "1191122464498181441"
+      },
+      {
+        "file": "apps/recursive-pathfinding/project.json",
+        "hash": "10740732729248908555"
+      },
+      {
+        "file": "apps/recursive-pathfinding/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/app.tsx",
+        "hash": "2275931639524312011",
+        "deps": [
+          "npm:react",
+          "npm:context/ThemeContext",
+          "npm:features/router/RouterConfig",
+          "npm:react-router-dom",
+          "npm:context/MazeContext",
+          "npm:@tanstack/react-query"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/assets/materialSymbols/back.svg",
+        "hash": "6015524657365055405"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/assets/materialSymbols/close.svg",
+        "hash": "9232473675427716761"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/assets/materialSymbols/gridView.svg",
+        "hash": "9418354020064691536"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/assets/materialSymbols/settings.svg",
+        "hash": "17390081654166786709"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/assets/materialSymbols/telephone.svg",
+        "hash": "139603796363425218"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/assets/materialSymbols/translate.svg",
+        "hash": "8861001481662183937"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/assets/materialSymbols/videocam.svg",
+        "hash": "12351009773031251635"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/assets/schulzLogos/Logo_SCHULZ.svg",
+        "hash": "16117230504321900506"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/assets/schulzLogos/schulzLogoBlack.svg",
+        "hash": "3296828930508548560"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/LanguageSelector/index.tsx",
+        "hash": "16499115735223650368"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/LanguageSelector/LanguageSelectField/index.tsx",
+        "hash": "14476581500859943573"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/LanguageSelector/LanguageSelectField/LanguageSelectField.tsx",
+        "hash": "18027208434858458916",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react-i18next",
+          "npm:react",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/materialSymbols/translate.svg"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/LanguageSelector/LanguageSelector.tsx",
+        "hash": "8784684891499065705",
+        "deps": [
+          "npm:react",
+          "npm:react-i18next",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/UI/LoadingSpinner/index.tsx",
+        "hash": "8510704326850206742"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/UI/LoadingSpinner/LoadingSpinner.tsx",
+        "hash": "17898767624727662915",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/UI/Page/index.tsx",
+        "hash": "1843130290203283800"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/UI/Page/Page.tsx",
+        "hash": "16150559238373122181",
+        "deps": [
+          "npm:react",
+          "npm:@mui/system",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/UI/StyledIcon/index.tsx",
+        "hash": "16084557547657475843"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/components/UI/StyledIcon/StyledIcon.tsx",
+        "hash": "900708737275184281",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/context/MazeContext/index.tsx",
+        "hash": "18073343689837010944"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/context/MazeContext/MazeContext.tsx",
+        "hash": "2723377232507112914",
+        "deps": [
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/context/ThemeContext/index.tsx",
+        "hash": "5223632696207275502"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/context/ThemeContext/theme-palette.ts",
+        "hash": "6154338888918099306",
+        "deps": [
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/context/ThemeContext/ThemeContext.tsx",
+        "hash": "1484274618416672659",
+        "deps": [
+          "npm:@mui/material",
+          "npm:context/ThemeContext/theme-palette",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/appBar/AppBar.tsx",
+        "hash": "16804174996112461004",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/schulzLogos/Logo_SCHULZ.svg"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/appBar/AppBarNavButton/AppBarNavButton.tsx",
+        "hash": "17732440706492972254",
+        "deps": [
+          "npm:@mui/material",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/materialSymbols/gridView.svg",
+          "npm:assets/materialSymbols/close.svg",
+          "npm:assets/materialSymbols/back.svg",
+          "npm:react",
+          "npm:react-router-dom",
+          "npm:react-i18next"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/appBar/AppBarNavButton/index.tsx",
+        "hash": "5452944012300234789"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/appBar/index.tsx",
+        "hash": "3370520706685188326"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/pathfinding/hooks/useMaze/useMaze.tsx",
+        "hash": "15214344904222735159",
+        "deps": [
+          "npm:react",
+          "npm:context/MazeContext",
+          "npm:features/pathfinding/recursiveAStar",
+          "npm:context/MazeContext/MazeContext"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/pathfinding/Maze/index.tsx",
+        "hash": "14823731194847183926"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/pathfinding/Maze/Maze.tsx",
+        "hash": "3516638857520371453",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/pathfinding/Maze3D/index.tsx",
+        "hash": "15476128944030473636"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/pathfinding/Maze3D/Maze3D.tsx",
+        "hash": "11236981065404356967",
+        "deps": [
+          "npm:@react-three/fiber",
+          "npm:react",
+          "npm:@react-three/drei",
+          "npm:three"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/pathfinding/recursiveAStar/index.ts",
+        "hash": "11234198175194277582"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/pathfinding/recursiveAStar/recursiveAStar.ts",
+        "hash": "6378217904552427253",
+        "deps": [
+          "npm:context/MazeContext/MazeContext"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/router/index.tsx",
+        "hash": "8294643873714387817"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/features/router/RouterConfig.tsx",
+        "hash": "4462137964608048455",
+        "deps": [
+          "npm:react",
+          "npm:react-router-dom",
+          "npm:layouts",
+          "npm:pages/Pathfinding/Pathfinding"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/layouts/index.tsx",
+        "hash": "10130446966653343947"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/layouts/Layout.tsx",
+        "hash": "16010242413639661291",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:features/appBar"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/layouts/Main/index.tsx",
+        "hash": "13342127902260133307"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/layouts/Main/Main.tsx",
+        "hash": "2142144641928241968",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:react-router-dom"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/main.tsx",
+        "hash": "4573879561554554199",
+        "deps": [
+          "npm:react",
+          "npm:react-dom"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/pages/Pathfinding/index.tsx",
+        "hash": "10757644948138410715"
+      },
+      {
+        "file": "apps/recursive-pathfinding/src/pages/Pathfinding/Pathfinding.tsx",
+        "hash": "13359742094727115826",
+        "deps": [
+          "npm:features/pathfinding/Maze/Maze",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding/tsconfig.app.json",
+        "hash": "3122682610598348251"
+      },
+      {
+        "file": "apps/recursive-pathfinding/tsconfig.json",
+        "hash": "13364953032839076921"
+      },
+      {
+        "file": "apps/recursive-pathfinding/tsconfig.spec.json",
+        "hash": "17159627170952567990"
+      },
+      {
+        "file": "apps/recursive-pathfinding/vite.config.ts",
+        "hash": "1890309354102123604",
+        "deps": [
+          "npm:vite",
+          "npm:@vitejs/plugin-react",
+          "npm:vite-tsconfig-paths"
+        ]
+      }
+    ],
+    "recursive-pathfinding-e2e": [
+      {
+        "file": "apps/recursive-pathfinding-e2e/.eslintrc.json",
+        "hash": "10799368048025705622"
+      },
+      {
+        "file": "apps/recursive-pathfinding-e2e/cypress.config.ts",
+        "hash": "5888464509215434582",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/recursive-pathfinding-e2e/project.json",
+        "hash": "13056802643083868450"
+      },
+      {
+        "file": "apps/recursive-pathfinding-e2e/src/e2e/app.cy.ts",
+        "hash": "2095619977320435314"
+      },
+      {
+        "file": "apps/recursive-pathfinding-e2e/src/fixtures/example.json",
+        "hash": "17341819486505642070"
+      },
+      {
+        "file": "apps/recursive-pathfinding-e2e/src/support/app.po.ts",
+        "hash": "5364106453863571025"
+      },
+      {
+        "file": "apps/recursive-pathfinding-e2e/src/support/commands.ts",
+        "hash": "11031723810997510506"
+      },
+      {
+        "file": "apps/recursive-pathfinding-e2e/src/support/e2e.ts",
+        "hash": "15928825062325902088"
+      },
+      {
+        "file": "apps/recursive-pathfinding-e2e/tsconfig.json",
+        "hash": "6711070650399197251"
+      }
+    ],
+    "video-stream-display": [
+      {
+        "file": "apps/video-stream-display/.eslintrc.json",
+        "hash": "14830867113928387670"
+      },
+      {
+        "file": "apps/video-stream-display/Dockerfile",
+        "hash": "17482983276549749866"
+      },
+      {
+        "file": "apps/video-stream-display/index.html",
+        "hash": "10923681853929888082"
+      },
+      {
+        "file": "apps/video-stream-display/nginx.conf",
+        "hash": "10721363189790195938"
+      },
+      {
+        "file": "apps/video-stream-display/project.json",
+        "hash": "499930306055175178"
+      },
+      {
+        "file": "apps/video-stream-display/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/video-stream-display/src/app.tsx",
+        "hash": "5672559390248427505",
+        "deps": [
+          "npm:react",
+          "npm:context/ThemeContext",
+          "npm:features/router/RouterConfig",
+          "npm:react-router-dom",
+          "npm:@tanstack/react-query"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/assets/schulzLogos/Logo_SCHULZ.svg",
+        "hash": "16117230504321900506"
+      },
+      {
+        "file": "apps/video-stream-display/src/assets/schulzLogos/schulzLogoBlack.svg",
+        "hash": "3296828930508548560"
+      },
+      {
+        "file": "apps/video-stream-display/src/components/LanguageSelector/index.tsx",
+        "hash": "16499115735223650368"
+      },
+      {
+        "file": "apps/video-stream-display/src/components/LanguageSelector/LanguageSelectField/index.tsx",
+        "hash": "14476581500859943573"
+      },
+      {
+        "file": "apps/video-stream-display/src/components/LanguageSelector/LanguageSelectField/LanguageSelectField.tsx",
+        "hash": "18027208434858458916",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react-i18next",
+          "npm:react",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/materialSymbols/translate.svg"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/components/LanguageSelector/LanguageSelector.tsx",
+        "hash": "8784684891499065705",
+        "deps": [
+          "npm:react",
+          "npm:react-i18next",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/components/UI/LoadingSpinner/index.tsx",
+        "hash": "8510704326850206742"
+      },
+      {
+        "file": "apps/video-stream-display/src/components/UI/LoadingSpinner/LoadingSpinner.tsx",
+        "hash": "17898767624727662915",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/components/UI/Page/index.tsx",
+        "hash": "1843130290203283800"
+      },
+      {
+        "file": "apps/video-stream-display/src/components/UI/Page/Page.tsx",
+        "hash": "16150559238373122181",
+        "deps": [
+          "npm:react",
+          "npm:@mui/system",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/components/UI/StyledIcon/index.tsx",
+        "hash": "16084557547657475843"
+      },
+      {
+        "file": "apps/video-stream-display/src/components/UI/StyledIcon/StyledIcon.tsx",
+        "hash": "900708737275184281",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/context/ThemeContext/index.tsx",
+        "hash": "5223632696207275502"
+      },
+      {
+        "file": "apps/video-stream-display/src/context/ThemeContext/theme-palette.ts",
+        "hash": "6976013319454537451",
+        "deps": [
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/context/ThemeContext/ThemeContext.tsx",
+        "hash": "1484274618416672659",
+        "deps": [
+          "npm:@mui/material",
+          "npm:context/ThemeContext/theme-palette",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/features/appBar/AppBar.tsx",
+        "hash": "10965670686116932076",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/schulzLogos/Logo_SCHULZ.svg"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/features/appBar/AppBarNavButton/AppBarNavButton.tsx",
+        "hash": "17732440706492972254",
+        "deps": [
+          "npm:@mui/material",
+          "npm:components/UI/StyledIcon",
+          "npm:assets/materialSymbols/gridView.svg",
+          "npm:assets/materialSymbols/close.svg",
+          "npm:assets/materialSymbols/back.svg",
+          "npm:react",
+          "npm:react-router-dom",
+          "npm:react-i18next"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/features/appBar/AppBarNavButton/index.tsx",
+        "hash": "5452944012300234789"
+      },
+      {
+        "file": "apps/video-stream-display/src/features/appBar/index.tsx",
+        "hash": "3370520706685188326"
+      },
+      {
+        "file": "apps/video-stream-display/src/features/router/index.tsx",
+        "hash": "8294643873714387817"
+      },
+      {
+        "file": "apps/video-stream-display/src/features/router/RouterConfig.tsx",
+        "hash": "14617941948440479115",
+        "deps": [
+          "npm:react",
+          "npm:react-router-dom",
+          "npm:layouts",
+          "npm:pages/StreamGrid"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/features/VideoStreamViewer/CameraStream.tsx",
+        "hash": "13177270427001499745",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/features/VideoStreamViewer/index.tsx",
+        "hash": "10974379661201842471"
+      },
+      {
+        "file": "apps/video-stream-display/src/features/VideoStreamViewer/plantConfiguration.tsx",
+        "hash": "2906114852784668977"
+      },
+      {
+        "file": "apps/video-stream-display/src/features/VideoStreamViewer/VideoStreamGrid.tsx",
+        "hash": "15216578852205792815",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/layouts/index.tsx",
+        "hash": "10130446966653343947"
+      },
+      {
+        "file": "apps/video-stream-display/src/layouts/Layout.tsx",
+        "hash": "16010242413639661291",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:features/appBar"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/layouts/Main/index.tsx",
+        "hash": "13342127902260133307"
+      },
+      {
+        "file": "apps/video-stream-display/src/layouts/Main/Main.tsx",
+        "hash": "2142144641928241968",
+        "deps": [
+          "npm:react",
+          "npm:@mui/material",
+          "npm:react-router-dom"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/main.tsx",
+        "hash": "4573879561554554199",
+        "deps": [
+          "npm:react",
+          "npm:react-dom"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/src/pages/StreamGrid/index.tsx",
+        "hash": "9193529618191794609"
+      },
+      {
+        "file": "apps/video-stream-display/src/pages/StreamGrid/StreamGrid.tsx",
+        "hash": "11480197955579883585",
+        "deps": [
+          "npm:@mui/material"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display/tsconfig.app.json",
+        "hash": "5327311059579940101"
+      },
+      {
+        "file": "apps/video-stream-display/tsconfig.json",
+        "hash": "2731871427614726656"
+      },
+      {
+        "file": "apps/video-stream-display/tsconfig.spec.json",
+        "hash": "17159627170952567990"
+      },
+      {
+        "file": "apps/video-stream-display/vite.config.ts",
+        "hash": "6395723825181352914",
+        "deps": [
+          "npm:vite",
+          "npm:@vitejs/plugin-react",
+          "npm:vite-tsconfig-paths"
+        ]
+      }
+    ],
+    "video-stream-display-e2e": [
+      {
+        "file": "apps/video-stream-display-e2e/.eslintrc.json",
+        "hash": "10799368048025705622"
+      },
+      {
+        "file": "apps/video-stream-display-e2e/cypress.config.ts",
+        "hash": "5888464509215434582",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/video-stream-display-e2e/project.json",
+        "hash": "540464509536519780"
+      },
+      {
+        "file": "apps/video-stream-display-e2e/src/e2e/app.cy.ts",
+        "hash": "16015516255671559837"
+      },
+      {
+        "file": "apps/video-stream-display-e2e/src/fixtures/example.json",
+        "hash": "17341819486505642070"
+      },
+      {
+        "file": "apps/video-stream-display-e2e/src/support/app.po.ts",
+        "hash": "5364106453863571025"
+      },
+      {
+        "file": "apps/video-stream-display-e2e/src/support/commands.ts",
+        "hash": "11031723810997510506"
+      },
+      {
+        "file": "apps/video-stream-display-e2e/src/support/e2e.ts",
+        "hash": "15928825062325902088"
+      },
+      {
+        "file": "apps/video-stream-display-e2e/tsconfig.json",
+        "hash": "6711070650399197251"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "pong-game-backend",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/pong-game-backend/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "platform": "node",
+        "outputPath": "dist/apps/pong-game-backend/",
+        "format": ["cjs"],
+        "bundle": false,
+        "main": "apps/pong-game-backend/src/main.ts",
+        "tsConfig": "apps/pong-game-backend/tsconfig.app.json",
+        "assets": ["apps/pong-game-backend/src/assets"],
+        "generatePackageJson": true,
+        "esbuildOptions": {
+          "sourcemap": true,
+          "outExtension": {
+            ".js": ".js"
+          }
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "esbuildOptions": {
+            "sourcemap": false,
+            "outExtension": {
+              ".js": ".js"
+            }
+          }
+        }
+      }
+    },
+    "dev": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "pong-game-backend:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "pong-game-backend:build:development"
+        },
+        "production": {
+          "buildTarget": "pong-game-backend:build:production"
+        }
+      }
+    }
+  }
+}

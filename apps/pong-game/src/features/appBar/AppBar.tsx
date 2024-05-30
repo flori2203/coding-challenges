@@ -42,7 +42,7 @@ const AppBar = () => {
             color={'text.primary'}
             fontWeight="700"
           >
-            Stream Display
+            Schulz-Pong
           </Typography>
           <Typography
             variant="h5"
@@ -50,13 +50,11 @@ const AppBar = () => {
             color={'text.disabled'}
             fontWeight="500"
             ml={1}
-          >
-
-          </Typography>
+          ></Typography>
         </Box>
 
         <Typography color={'text.disabled'} mr={2}>
-          Austing Mischfutterwerk GmbH
+          Coding-Challenge
         </Typography>
       </Box>
     </MuiAppBar>
