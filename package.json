@@ -27,6 +27,7 @@
     "ws": "^8.17.0"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
     "@emotion/babel-plugin": "11.10.6",
     "@nx/cypress": "16.3.2",
     "@nx/esbuild": "19.1.0",

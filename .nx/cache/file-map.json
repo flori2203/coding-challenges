@@ -22,6 +22,7 @@
     "three": "^0.153.0",
     "tslib": "^2.3.0",
     "ws": "^8.17.0",
+    "@babel/preset-react": "^7.14.5",
     "@emotion/babel-plugin": "11.10.6",
     "@nx/cypress": "16.3.2",
     "@nx/esbuild": "19.1.0",
@@ -79,6 +80,9 @@
     "vitest": "^0.31.0"
   },
   "pathMappings": {
+    "@coding-challenges/pong-types": [
+      "libs/pong-types/src/index.ts"
+    ],
     "@pong-game/*": [
       "apps/pong-game/src/*"
     ]
@@ -890,7 +894,7 @@
       },
       {
         "file": "apps/pong-game/src/app.tsx",
-        "hash": "14367978751881109759",
+        "hash": "11234083824260277780",
         "deps": [
           "npm:react",
           "npm:react-router-dom",
@@ -962,8 +966,21 @@
         ]
       },
       {
+        "file": "apps/pong-game/src/context/WsConnectionContext/index.tsx",
+        "hash": "13265986908067026016"
+      },
+      {
+        "file": "apps/pong-game/src/context/WsConnectionContext/WsConnectionContext.tsx",
+        "hash": "10874777720620019331",
+        "deps": [
+          "npm:react",
+          "pong-types",
+          "npm:react-router-dom"
+        ]
+      },
+      {
         "file": "apps/pong-game/src/features/appBar/AppBar.tsx",
-        "hash": "5376706655026147329",
+        "hash": "2693256858330536155",
         "deps": [
           "npm:react",
           "npm:@mui/material",
@@ -996,7 +1013,7 @@
       },
       {
         "file": "apps/pong-game/src/features/router/RouterConfig.tsx",
-        "hash": "9650054572965879053",
+        "hash": "15618786175097352707",
         "deps": [
           "npm:react",
           "npm:react-router-dom"
@@ -1036,12 +1053,36 @@
         ]
       },
       {
+        "file": "apps/pong-game/src/pages/Login/index.tsx",
+        "hash": "15652727653059106594"
+      },
+      {
+        "file": "apps/pong-game/src/pages/Login/Login.tsx",
+        "hash": "4589949107295557968",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
+        "file": "apps/pong-game/src/pages/Menu/index.tsx",
+        "hash": "7020515398479853831"
+      },
+      {
+        "file": "apps/pong-game/src/pages/Menu/Menu.tsx",
+        "hash": "11178532836329541010",
+        "deps": [
+          "npm:@mui/material",
+          "npm:react"
+        ]
+      },
+      {
         "file": "apps/pong-game/src/pages/Pong/index.tsx",
         "hash": "1094048408861547658"
       },
       {
         "file": "apps/pong-game/src/pages/Pong/Pong.tsx",
-        "hash": "4204391330594050811",
+        "hash": "16069564131532209274",
         "deps": [
           "npm:react",
           "npm:@react-three/fiber",
@@ -1091,17 +1132,21 @@
         "hash": "3244421341483603138"
       },
       {
-        "file": "apps/pong-game-backend/src/main.ts",
-        "hash": "55814974196941448",
+        "file": "apps/pong-game-backend/src/handlers.ts",
+        "hash": "9119502378195989962",
         "deps": [
-          "npm:http",
-          "npm:express",
-          "npm:ws"
+          "pong-types"
         ]
       },
       {
-        "file": "apps/pong-game-backend/src/types.ts",
-        "hash": "3801241595630847672"
+        "file": "apps/pong-game-backend/src/main.ts",
+        "hash": "2281042660235286446",
+        "deps": [
+          "npm:http",
+          "npm:express",
+          "npm:ws",
+          "pong-types"
+        ]
       },
       {
         "file": "apps/pong-game-backend/tsconfig.app.json",
@@ -1114,6 +1159,13 @@
       {
         "file": "apps/pong-game-backend/tsconfig.spec.json",
         "hash": "11550347367511341917"
+      },
+      {
+        "file": "apps/pong-game-backend/src/game.ts",
+        "hash": "17177025417074943576",
+        "deps": [
+          "pong-types"
+        ]
       }
     ],
     "pong-game-e2e": [
@@ -1828,6 +1880,40 @@
       {
         "file": "apps/video-stream-display-e2e/tsconfig.json",
         "hash": "6711070650399197251"
+      }
+    ],
+    "pong-types": [
+      {
+        "file": "libs/pong-types/.babelrc",
+        "hash": "2946678488919325452"
+      },
+      {
+        "file": "libs/pong-types/.eslintrc.json",
+        "hash": "11012487992710232822"
+      },
+      {
+        "file": "libs/pong-types/project.json",
+        "hash": "5959917359087663611"
+      },
+      {
+        "file": "libs/pong-types/README.md",
+        "hash": "16383628039279337208"
+      },
+      {
+        "file": "libs/pong-types/src/index.ts",
+        "hash": "1748383720051645230"
+      },
+      {
+        "file": "libs/pong-types/src/lib/types.ts",
+        "hash": "14022362388682504890"
+      },
+      {
+        "file": "libs/pong-types/tsconfig.json",
+        "hash": "14088618039610991405"
+      },
+      {
+        "file": "libs/pong-types/tsconfig.lib.json",
+        "hash": "17190776767862500632"
       }
     ]
   }

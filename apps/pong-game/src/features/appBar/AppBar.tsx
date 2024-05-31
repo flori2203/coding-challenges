@@ -42,7 +42,7 @@ const AppBar = () => {
             color={'text.primary'}
             fontWeight="700"
           >
-            Schulz-Pong
+            &#127955; Schulz-Pong &#127955;
           </Typography>
           <Typography
             variant="h5"

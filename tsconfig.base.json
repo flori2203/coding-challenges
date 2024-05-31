@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@coding-challenges/pong-types": ["libs/pong-types/src/index.ts"],
       "@pong-game/*": ["apps/pong-game/src/*"]
     }
   },
