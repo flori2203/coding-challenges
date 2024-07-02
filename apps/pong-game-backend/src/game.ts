@@ -48,13 +48,13 @@ export const runGame = (game: Game) => {
       }
     }
 
-    // Check if ball goes out of bounds (left or right)
-    if (ball.x - ballRadius <= -width / 2 - 1.5) {
-      // Right player wins
-      game.winner = game.players[1];
-      game.isStarted = false;
-      updateClientsByGame(game);
-      return;
+      // Check if ball goes out of bounds (left or right)
+      if (ball.x - ballRadius <= -width / 2 - 1.5) {
+        // Right player wins
+        game.winner = game.players[1];
+        game.isStarted = false;
+        updateClientsByGame(game);
+        return;
     } else if (ball.x + ballRadius >= width / 2 + 1.5) {
       // Left player wins
       game.winner = game.players[0];

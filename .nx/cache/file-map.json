@@ -1132,6 +1132,13 @@
         "hash": "3244421341483603138"
       },
       {
+        "file": "apps/pong-game-backend/src/game.ts",
+        "hash": "8415146941667883556",
+        "deps": [
+          "pong-types"
+        ]
+      },
+      {
         "file": "apps/pong-game-backend/src/handlers.ts",
         "hash": "9119502378195989962",
         "deps": [
@@ -1159,13 +1166,6 @@
       {
         "file": "apps/pong-game-backend/tsconfig.spec.json",
         "hash": "11550347367511341917"
-      },
-      {
-        "file": "apps/pong-game-backend/src/game.ts",
-        "hash": "17177025417074943576",
-        "deps": [
-          "pong-types"
-        ]
       }
     ],
     "pong-game-e2e": [
